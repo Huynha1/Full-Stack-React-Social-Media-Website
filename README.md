@@ -1,0 +1,2 @@
+# Loop Agile Now's Dedicated Social Network Website
+This website is a social media site to allow people to connect with each other. This website was created for Loop Agile Now (LAN) which is a mock technology company. 

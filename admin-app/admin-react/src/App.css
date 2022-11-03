@@ -1,0 +1,335 @@
+/* This class will adjusting the padding for the logo on the navbar*/
+.navbar-logo-space {
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+/* This class for the text on the navbar*/
+.navbar-text{
+  font-size: 20px !important;
+}
+
+/* This centres the logo of the website */
+.navbar-logo-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* This class is for the text on the landing page */
+.land-page-text-box{
+  position: absolute;
+  top: 40%;
+  left: 3%;
+  max-width: 550px !important;
+}
+
+/* This class is for the buttons that should have a hover effect */
+.btn-hover:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.text-shadow-hover:hover {
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* This class is for the new post button */
+.btn-hover2:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  opacity: 0.6;
+}
+
+.btn-hover3:hover {
+  transition: 0.3s;
+  opacity: 0.6;
+}
+
+/* This class is the container for the sign in inputs */
+.sign-in-card{
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 500px;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 25px;
+}
+
+/* This class is the container for the sign up inputs */
+.sign-up-card{
+  background-color: white;
+  position: absolute;
+  top: 22%;
+  margin: auto;
+  width: 500px;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 25px;
+}
+
+/* This class contains all the css for the footer */
+.footer {
+  background-color: #212528;
+  padding: 25px;
+  color: white;
+  font-weight: bold;
+  height: 75px;
+  width: 100%;
+  text-align: center;
+}
+
+/* This class will be for the container/card that displays all the post*/
+.profile-card{
+  background-color: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  top: 12%;
+  margin: auto;
+  width: 500px;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 25px;
+}
+
+/* This class will be for the container/card that displays all the post*/
+.dashboard-card {
+  background-color: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  top: 75px;
+  display: flex;
+  margin-left: 12.5%;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  width: 75%;
+  height: 90%;
+  overflow: scroll;
+  display: block;
+}
+
+/* This class will be for the container/card that displays the post*/
+.post-card {
+  color: white;
+  top: auto;
+  margin-top: 20px;
+  margin-left: 5%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 90%;
+  height: auto;
+  border-width: 3px;
+  border-radius: 5px 5px 2px 2px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), inset 0 -2px;
+}
+
+/* This class will set the font size for the users name in the post */
+.post-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* This class will set the font size for the date in the post */
+.post-date {
+  font-size: 15px;
+}
+
+/* This class will set the font size for the title in the post */
+.post-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* This class will set the font size for the text in the post */
+.post-text {
+  font-size: 20px;
+}
+
+/* This class is for the div that will contain all the input fields for when a user makes a post*/
+.new-post-card {
+  background-color: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  top: 120px;
+  display: flex;
+  margin-left: 12.5%;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+  width: 75%;
+  height: auto;
+  overflow: scroll;
+  display: block;
+}
+
+/* This class will adjust the sizing and display style for the image*/
+.post-image{
+  margin: 10px;
+  max-width: 75%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* This class will be for the container/card that displays all the comments of a post*/
+.comment-card {
+  background-color: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  top: 75px;
+  display: flex;
+  margin-left: 12.5%;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 75%;
+  height: 87.5%;
+  overflow: scroll;
+  display: block;
+}
+
+/* This class will be for the container/card that displays the post over the comments*/
+.comment-post-card {
+  color: white;
+  top: auto;
+  margin-left: 5%;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 20px;
+  width: 90%;
+  height: auto;
+  border-width: 3px;
+  border-radius: 5px 5px 2px 2px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* This class will be for the container that displays the 3 sections of followers*/
+.follow-card{
+  background-color: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  top: 12%;
+  margin: auto;
+  width: 80%;
+  height: 675px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 25px;
+}
+
+.follow-sub-card {
+  color: white;
+  top: auto;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  width: 100%;
+  height: 73.25%;
+  border-width: 3px;
+  border-radius: 5px 5px 2px 2px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.user-follow-icon {
+  color: white;
+  top: auto;
+  padding: 4%;
+  margin-top: 1%;
+  width: 100%;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-radius: 10px; */
+}
+
+.scroll-box {
+  height: 92.5%;
+  overflow: scroll;
+  display: block;
+}
+
+/* This class will be for the container/card that displays the post*/
+.reaction-card {
+  background-color: #212528;
+  padding: 7.5px;
+  width: auto;
+  height: auto;
+  border-width: 3px;
+  /* border-radius: 5px 5px 2px 2px; */
+  border-radius: 5px;
+}
+
+.dashboard-background {
+  background-color: #eeeeee;
+  width: 100%;
+  height: 800px;
+}
+
+.admin-users-card{
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 10%;
+  margin-left: 10%;
+  width: 80%;
+  height: 720px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 25px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.column3 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.home-container{
+  /* background-color: rgb(255, 255, 255, 0); */
+  position: absolute;
+  top: 20%;
+  margin-left: 10%;
+  width: 80%;
+  height: 400px;
+  padding: 25px;
+}
+
+.home-stat-card{
+  background-color: rgb(115, 112, 255, 0.9);
+  position: absolute;
+
+  width: 350px;
+  height: 400px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
