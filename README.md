@@ -3,5 +3,6 @@ This project is a social media site where users can share their thoughts through
 
 ### Directories
 > admin-app
+lol
 > express
 > react
