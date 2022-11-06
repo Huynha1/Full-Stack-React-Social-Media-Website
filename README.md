@@ -9,6 +9,8 @@ This project is a social media site where users can share their thoughts through
     ├── express                # File for application express backend
     └── react                  # File for application react frontend
 
+The standard application uses the REST API while the admin application uses GraphQL
+
 ### Modules to install
 
 #### React
@@ -19,3 +21,29 @@ This project is a social media site where users can share their thoughts through
 - React Alert
 
 `npm install react-router-dom@6 axios react-quill react-edit-text react-alert react-alert-template-basic --save`
+
+#### Express
+- Express
+- Sequelize
+- MySQL2
+- Cors
+- Argon2
+
+`npm install express sequelize mysql2 cors argon2 --save`
+
+#### admin-react
+- React Router DOM
+- Axios
+
+`npm install react-router-dom@6 axios --save`
+
+#### admin-express
+- Express
+- Express GraphQL
+- MySQL2
+- Nodemon
+- Sequelize
+
+`npm install express express-graphql graphql mysql2 nodemon sequelize`
+
+### How to run project
