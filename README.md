@@ -1,4 +1,4 @@
-# Loop Agile Now's Dedicated Social Network Website
+# Loop Agile Now's Social Network Website
 This project is a social media site where users can share their thoughts through posts and interact with each other. This website was created for Loop Agile Now (LAN) which is a mock IT consultancy firm. The front-end for this application was built using React and the backend was built using sequelize. 
 
 ### Directories
@@ -13,7 +13,7 @@ The standard application uses the REST API while the admin application uses Grap
 
 ### Modules to install
 
-#### React
+#### react
 - React Router DOM
 - Axios
 - React Quill
@@ -22,7 +22,7 @@ The standard application uses the REST API while the admin application uses Grap
 
 `npm install react-router-dom@6 axios react-quill react-edit-text react-alert react-alert-template-basic --save`
 
-#### Express
+#### express
 - Express
 - Sequelize
 - MySQL2
@@ -47,3 +47,16 @@ The standard application uses the REST API while the admin application uses Grap
 `npm install express express-graphql graphql mysql2 nodemon sequelize`
 
 ### How to run project
+Change the directory to each file before running.
+
+#### react
+`npm start`
+
+#### express
+`node server.js`
+
+#### admin-react
+`npm start`
+
+#### admin-express
+`node server.js`
